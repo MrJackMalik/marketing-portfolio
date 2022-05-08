@@ -3,6 +3,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      maxWidth: {
+        1: "100%",
+        "3/4": "75%",
+        "1/2": "50%",
+      },
       colors: {
         body: "#17171F",
         "selected-text": "#A3A3FF",

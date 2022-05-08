@@ -15,12 +15,108 @@
   </head>
   <body class="bg-body text-white font-poppins pb-12">
     <header class="py-6">
+      <nav class="shadow-lg pb-6">
+        <section class="container flex justify-between">
+          <div class="text-lg font-bold">
+            <a href="index.html">JackMalik</a>
+          </div>
+          <div class="hidden md:flex items-center space-x-6 uppercase">
+            <a
+              href="javascript:void(0)"
+              class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
+              >About</a
+            ><a
+              href="javascript:void(0)"
+              class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
+              >Blog</a
+            ><a
+              href="javascript:void(0)"
+              class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
+              >Work With me</a
+            ><a
+              href="javascript:void(0)"
+              class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
+              >Resources</a
+            >
+            <a href="javascript:void(0)"
+              ><button
+                class="bg-transparent hover:bg-theme px-6 py-2 rounded-2xl"
+              >
+                Get in Touch
+              </button></a
+            >
+
+            <div class="md:hidden flex items-center">
+              <button class="outline-none mobile-menu-button">
+                <svg
+                  class="w-6 h-6 text-gray-500"
+                  x-show="!showMenu"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="hidden mobile-menu">
+            <ul>
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
+                  >Work with me</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
+                  >Resources</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
+                  ><button
+                    class="bg-transparent hover:bg-theme px-6 py-2 rounded-2xl"
+                  >
+                    Get in Touch
+                  </button></a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+      </nav>
+    </header>
+    <!-- <header class="py-6">
       <div
         class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
       >
         <div class="text-lg font-bold">JackMalik</div>
         <div class="hidden md:flex space-x-12 items-center">
-          <a href="#" class="text-selected-text">Home</a>
+          <a href="#" class="text-selected-text">About</a>
           <a href="#courses">Courses</a>
           <a href="#vision">Vision</a>
           <a href="#hire"
@@ -29,24 +125,11 @@
             </button></a
           >
         </div>
-        <div class="md:hidden">
-          <svg
-            width="26"
-            height="18"
-            viewBox="0 0 26 18"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z"
-              fill="white"
-            />
-          </svg>
-        </div>
+        
       </div>
-    </header>
+    </header> -->
 
-    <div
+    <!-- <div
       class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     >
       <div class="flex flex-wrap md:flex-nowrap">
@@ -131,15 +214,17 @@
             </button>
           </div>
         </div>
-        <img
-          src="img/bg-none.png"
-          alt="Man"
-          class="w-2/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1"
-        />
+        <div class="md:shrink-0">
+          <img
+            src="img/bg-none.png"
+            alt="me"
+            class="w-2/4 mt-12 md:absolute mt-6 md:mx-6 right-0 z-1"
+          />
+        </div>
       </div>
     </div>
 
-    <!-- My Courses -->
+     
     <div
       class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     >
@@ -195,7 +280,7 @@
       </section>
     </div>
 
-    <!-- pet projects -->
+    
     <div
       class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     >
@@ -206,12 +291,12 @@
           post my points to some marketing resources of brands.
         </p>
 
-        <!-- vision -->
+       vision
         <div class="space-y-12 my-16">
           <div
             class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"
           >
-            <!-- vision 1-->
+            vision 1
             <div class="mb-6 lg:mb-1">
               <img
                 src="https://korzinka.uz/wp-content/uploads/2018/05/K_logo.jpg"
@@ -248,7 +333,7 @@
           <div
             class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"
           >
-            <!-- vision 2 -->
+            vision 2 
             <div class="mb-6 lg:mb-0">
               <img src="img/bg-none.png" alt="" class="w-3/4 rounded-full" />
             </div>
@@ -276,7 +361,7 @@
           <div
             class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"
           >
-            <!-- vision 3 -->
+            vision 3 
             <div class="mb-6 lg:mb-0">
               <img src="img/bg-none.png" alt="" class="w-3/4 rounded-full" />
             </div>
@@ -303,7 +388,7 @@
       </section>
     </div>
 
-    <!-- Hire me -->
+    Hire me 
     <div
       class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
     >
@@ -347,7 +432,7 @@
           </div>
 
           <div class="mt-12">
-            <!-- Contact info -->
+             Contact info 
             <p class="text-secondary">+998973295745</p>
             <a
               href="3295745@gmail.com"
@@ -358,6 +443,7 @@
         </div>
       </section>
     </div>
+    -->
     <script src="main.js"></script>
   </body>
 </html>
